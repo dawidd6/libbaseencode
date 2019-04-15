@@ -1,0 +1,6 @@
+libbaseencode.so.1 libbaseencode1 #MINVER#
+* Build-Depends-Package: libbaseencode-dev
+ base32_decode@Base 1.0.9
+ base32_encode@Base 1.0.9
+ base64_decode@Base 1.0.9
+ base64_encode@Base 1.0.9

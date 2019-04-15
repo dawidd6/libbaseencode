@@ -1,0 +1,35 @@
+Source: libbaseencode
+Priority: optional
+Maintainer: Dawid Dziurla <dawidd0811@gmail.com>
+Build-Depends:
+ debhelper-compat (= 12),
+ cmake,
+Standards-Version: 4.3.0.1
+Section: libs
+Homepage: https://github.com/paolostivanin/libbaseencode
+
+Package: libbaseencode-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends:
+ libbaseencode1 (= ${binary:Version}),
+ ${misc:Depends},
+Description: C library for encoding and decoding data (development files)
+ Library written in C for encoding and decoding data using
+ base32 or base64 according to RFC-4648
+ .
+ This package contains the files needed to compile and link programs
+ which use this library.
+
+Package: libbaseencode1
+Architecture: any
+Multi-Arch: same
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+Description: C library for encoding and decoding data
+ Library written in C for encoding and decoding data using
+ base32 or base64 according to RFC-4648.
+ .
+ This package contains shared library object.
