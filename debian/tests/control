@@ -1,1 +1,1 @@
-Tests: smoke
+Test-Command: test -d src
