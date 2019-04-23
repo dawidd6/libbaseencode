@@ -2,9 +2,9 @@ Source: libbaseencode
 Priority: optional
 Maintainer: Dawid Dziurla <dawidd0811@gmail.com>
 Build-Depends:
- debhelper-compat (= 12),
+ debhelper (>= 9),
  cmake,
-Standards-Version: 4.3.0.1
+Standards-Version: 3.9.7
 Section: libs
 Homepage: https://github.com/paolostivanin/libbaseencode
 

@@ -1,4 +1,4 @@
-libbaseencode (1.0.9-1) UNRELEASED; urgency=medium
+libbaseencode (1.0.9-1) xenial; urgency=medium
 
   * Initial release.
 
